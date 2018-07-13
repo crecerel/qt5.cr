@@ -13,6 +13,6 @@ dependencies:
     branch: master
 
 scripts:
-  postinstall: crystal deps build
+  postinstall: shards build
 
 license: MPL-2
